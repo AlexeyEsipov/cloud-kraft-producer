@@ -25,7 +25,6 @@ public class ProductServiceImpl implements ProductService{
 
     @Override
     public String createProduct(CreateProductDto dto) throws ExecutionException, InterruptedException {
-        // TODO save DB
         String productId = UUID.randomUUID().toString();
         ProductCreatedEvent productCreatedEvent = new ProductCreatedEvent(productId,
                 dto.getTitle(), dto.getPrice(), dto.getQuantity());
