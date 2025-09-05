@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ru.job4j</groupId>
-	<artifactId>kraftproduser</artifactId>
+	<artifactId>kraftproducer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>kraftproduser</name>
-	<description>kraftproduser</description>
+	<name>kraftproducer</name>
+	<description>kraftproducer</description>
 	<properties>
 		<java.version>17</java.version>
 		<spring-boot-admin.version>3.5.0</spring-boot-admin.version>
